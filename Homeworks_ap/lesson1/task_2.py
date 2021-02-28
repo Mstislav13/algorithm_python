@@ -5,4 +5,21 @@
 Например, если надо получить случайный символ от 'a' до 'f', то вводятся эти символы.
 Программа должна вывести на экран любой символ алфавита от 'a' до 'f' включительно.
 '''
+from random import randint, uniform
 
+print("Выберите тип данных :")
+type = input("i (целое число), f (вещественное число), s (символ): ")
+print("Выберите границы диапазона :")
+start = input("Введите начальное значение: ")
+end = input("Введите конечное значение: ")
+
+if type == 'i':
+    x = randint(int(start), int(end))
+elif type == 'f':
+    x = uniform(float(start), float(end))
+elif type == 's':
+    x = chr(randint(ord(start), ord(end)))
+else:
+    x = f"Неверный тип данных '{type}'"
+
+print(f"Случайное значение от {start} до {end} = {x}")
