@@ -30,7 +30,7 @@ cProfile.run('sum_num(1_000)')
 
 #   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
 #        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
-#        1    0.000    0.000    0.000    0.000 les_4_task_1.py:7(sum_num)
+#        1    0.000    0.000    0.000    0.000 les_4_task_1.1.py:7(sum_num)
 #        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
 #       10    0.000    0.000    0.000    0.000 {built-in method builtins.pow}
 #        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
@@ -42,7 +42,7 @@ cProfile.run('sum_num(1_000)')
 
 #   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
 #        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
-#        1    0.000    0.000    0.000    0.000 les_4_task_1.py:7(sum_num)
+#        1    0.000    0.000    0.000    0.000 les_4_task_1.1.py:7(sum_num)
 #        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
 #       50    0.000    0.000    0.000    0.000 {built-in method builtins.pow}
 #        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
@@ -54,7 +54,7 @@ cProfile.run('sum_num(1_000)')
 
 #   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
 #        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
-#        1    0.000    0.000    0.000    0.000 les_4_task_1.py:7(sum_num)
+#        1    0.000    0.000    0.000    0.000 les_4_task_1.1.py:7(sum_num)
 #        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
 #      100    0.000    0.000    0.000    0.000 {built-in method builtins.pow}
 #        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
@@ -66,7 +66,7 @@ cProfile.run('sum_num(1_000)')
 
 #   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
 #        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
-#        1    0.000    0.000    0.000    0.000 les_4_task_1.py:7(sum_num)
+#        1    0.000    0.000    0.000    0.000 les_4_task_1.1.py:7(sum_num)
 #        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
 #      200    0.000    0.000    0.000    0.000 {built-in method builtins.pow}
 #        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
@@ -78,7 +78,7 @@ cProfile.run('sum_num(1_000)')
 
 #   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
 #        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
-#        1    0.000    0.000    0.001    0.001 les_4_task_1.py:7(sum_num)
+#        1    0.000    0.000    0.001    0.001 les_4_task_1.1.py:7(sum_num)
 #        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
 #      500    0.000    0.000    0.000    0.000 {built-in method builtins.pow}
 #        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
@@ -90,7 +90,7 @@ cProfile.run('sum_num(1_000)')
 
 #   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
 #        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
-#        1    0.000    0.000    0.001    0.001 les_4_task_1.py:7(sum_num)
+#        1    0.000    0.000    0.001    0.001 les_4_task_1.1.py:7(sum_num)
 #        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
 #     1000    0.001    0.000    0.001    0.000 {built-in method builtins.pow}
 #        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
