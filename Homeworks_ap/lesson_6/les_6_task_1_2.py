@@ -15,7 +15,8 @@ def show(obj):
             for item in obj:
                 show(item)
 
-number = input('Введите трёхзначное число: ')
+#number = input('Введите трёхзначное число: ')
+number = '964'
 
 sum = 0
 op = 1
@@ -29,3 +30,9 @@ print(f'Произведение цифр во введённом числе {nu
 variable = (number, sum, op, x)
 lst = [i for i in (variable)]
 show(lst)
+
+sum_byte = 0
+
+for i in variable:
+    sum_byte += sys.getsizeof(i)
+print('\n'f'Сумма переменных составляет - {sum_byte} байт.')

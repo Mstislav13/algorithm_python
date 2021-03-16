@@ -15,11 +15,11 @@ def show(obj):
             for item in obj:
                 show(item)
 
-
 go = True
 
 while go:
-    items_cnt = int(input('Введите количество элементов в списке: '))
+    #items_cnt = int(input('Введите количество элементов в списке: '))
+    items_cnt = 20
     array = [randint(-100, 100) for _ in range(items_cnt)]
     min_value_idx = max_value_idx = 0
     max_value = min_value = array[0]
@@ -39,3 +39,9 @@ print(array)
 variable = (go, items_cnt, array, min_value_idx, max_value_idx, idx)
 lst = [i for i in (variable)]
 show(lst)
+
+sum_byte = 0
+
+for i in variable:
+    sum_byte += sys.getsizeof(i)
+print('\n'f'Сумма переменных составляет - {sum_byte} байт.')

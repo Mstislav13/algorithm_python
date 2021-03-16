@@ -18,8 +18,8 @@ def show(obj):
             for item in obj:
                 show(item)
 
-BIGNESS = 7
-BEGIN = 0
+BIGNESS = 20
+BEGIN = -100
 END = 100
 
 array = [random.randint(BEGIN, END) for _ in range(BIGNESS)]
@@ -45,3 +45,9 @@ print(f'После замены в исходном массиве максим�
 variable = (BIGNESS, BEGIN, END, array, max_el, min_el, idx_max, idx_min, i)
 lst = [i for i in (variable)]
 show(lst)
+
+sum_byte = 0
+
+for i in variable:
+    sum_byte += sys.getsizeof(i)
+print('\n'f'Сумма переменных составляет - {sum_byte} байт.')
